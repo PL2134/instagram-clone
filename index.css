@@ -1,5 +1,60 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
 }
 
+.app-container {
+    width: 375px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.app-header {
+    display: flex;
+}
+
+.logo {
+    width: 127px;
+}
+
+.user-avatar,
+.author-avator {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.post-header {
+    display: flex;
+}
+
+.portrait {
+    width: 100%;
+}
+
+.post-actions {
+    display: flex;
+}
+
+.action {
+    width: 23px;
+}
+
+
+.name,
+.likes-num,
+.username {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.comment {
+    font-weight: 400;
+    font-size: 13px;
+}

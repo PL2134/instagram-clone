@@ -1,9 +1,50 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <img src="images/logo.png">
+        <div class="app-container">
+            <header class="app-header">
+                <h1>
+                    <img src="images/logo.png" alt="Oldagram" class="logo">
+                </h1>
+                <img src="images/user-avatar.png" class="user-avatar" alt="User avatar">
+            </header>
+            
+            <main class="main-content">
+                <article class="post">
+                    <header class="post-header">
+                        <img src="images/avatar-vangogh.jpg" class="author-avator" alt="Vincent van Gogh">
+                        <div class="name-location-container">
+                            <h2 class="name">Vincent van Gogh</h2>
+                            <p class="location">Zundert, Netherlands</p>
+                        </div>
+                    </header>
+                    
+                    <div class="post-image">
+                        <img src="images/post-vangogh.jpg" class="portrait" alt="Van Gogh self portrait">
+                    </div>
+                    
+                    <div class="post-actions">
+                        <img src="images/icon-heart.png" class="action" alt="Like">
+                        <img src="images/icon-comment.png" class="action" alt="Comment">
+                        <img src="images/icon-dm.png" class="action" alt="Share">
+                    </div>
+                    
+                    <footer class="post-caption">
+                        <p class="likes-num">21,492 likes</p>
+                        <p class="username">
+                            vincey1853
+                            <span class="comment">just took a few mushrooms lol</span>
+                        </p>
+                    </footer>
+                </article>
+            </main>
+        </div>
+        
         <script src="index.js"></script>
     </body>
 </html>
