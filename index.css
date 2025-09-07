@@ -6,7 +6,6 @@ html, body {
 
 .app-container {
     width: 375px;
-    border: 2px solid red; /*take this line out once everything finished*/
     margin: 0 auto;
 }
 
