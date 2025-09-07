@@ -6,16 +6,22 @@ html, body {
 
 .app-container {
     width: 375px;
-    border: 2px solid red;
+    border: 2px solid red; /*take this line out once everything finished*/
     margin: 0 auto;
 }
 
 .app-header {
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px;
+    border-bottom: 1px solid #C6C6C6;
 }
 
 .logo {
     width: 127px;
+    height: 34px;
+    margin: 0;
 }
 
 .user-avatar,
@@ -27,34 +33,61 @@ html, body {
 
 .post-header {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+    padding: 10px;
 }
 
 .portrait {
     width: 100%;
+    display: block;
 }
 
 .post-actions {
     display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 10px;
 }
 
 .action {
     width: 23px;
+    margin: 0;
 }
 
+.action:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
 
 .name,
 .likes-num,
 .username {
     font-weight: 700;
     font-size: 13px;
+    margin: 0;
+}
+
+.likes-num,
+.username {
+    margin-top: 12px;
+    margin-left: 13px;
+    
 }
 
 .location {
     font-weight: 400;
     font-size: 12px;
+    margin: 0;
 }
 
 .comment {
     font-weight: 400;
     font-size: 13px;
+}
+
+.post-caption {
+    padding-bottom: 16px;
 }
